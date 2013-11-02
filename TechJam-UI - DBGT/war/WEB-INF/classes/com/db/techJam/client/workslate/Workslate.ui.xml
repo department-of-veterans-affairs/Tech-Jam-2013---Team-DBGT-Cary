@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:b="urn:import:com.github.gwtbootstrap.client.ui" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+<ui:style ui:field="style" >
+
+.red{
+	background: red;
+	}
+.yellow{
+	background: yellow;
+	}
+.purple{
+	background: purple;	
+	}
+	.inherit{
+	position:inherit !important;
+
+	}
+
+
+</ui:style>
+
+
+	<g:DockLayoutPanel ui:field="workslate" styleName="{style.inherit}" height="100%">
+		<g:north size="35">
+			<g:HTMLPanel ui:field="brandBar" styleName="{style.yellow}" height="35" />
+		</g:north>
+		<g:west size="176" height="100%">
+			<g:HTMLPanel ui:field="leftNav" styleName="{style.purple}" height="100%"/>
+		</g:west>
+		<g:center>
+			<g:HTMLPanel ui:field="centerPanel" height="100%" styleName="{style.red}"/>
+		</g:center>
+	</g:DockLayoutPanel>
+	
+</ui:UiBinder>

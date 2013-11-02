@@ -1,0 +1,27 @@
+/*
+	View - signup screen
+*/
+
+.form-signup {
+	max-width: 650px;
+	padding: 19px 29px 9px;
+	margin: 0 auto 20px;
+	background-color: #fff;
+	border: 1px solid #888;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px rgba(100,100,100,.45);
+}
+.form-signup .form-signup-heading,
+.form-signup .checkbox, .form-signup button {
+	margin-bottom: 10px;
+}
+.form-signup input[type="text"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+
+.form-signup .add-on {
+	padding: 7px 9px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:b="urn:import:com.github.gwtbootstrap.client.ui" xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:i="urn:import:com.github.gwtbootstrap.client.ui.incubator">
+
+	<b:TabPanel tabPosition="ABOVE" >
+		<b:DropdownTab text="Pre-Admission">
+			<b:Tab heading="Advance Directives/Health Care Plan of Action (POA) " >
+				<b:Heading size="3" text="Advance Directives/Health Care Plan of Action (POA)" />
+				<b:HelpBlock>Discuss process, verify health care power of attorney, verify directives, notarize or witness as appropriate, and submit to medical facility </b:HelpBlock>
+				<b:CellTable ui:field="preAdmn1" />			
+			</b:Tab>
+			<b:Tab heading="Alternative/ Complimentary Therapy " ></b:Tab>
+			<b:Tab heading="Clinical Care and Case Management " ></b:Tab>
+			<b:Tab heading="Communication and Translation  " ></b:Tab>
+			<b:Tab heading="Non-Clinical Case Management  " ></b:Tab>
+			<b:Tab heading="Spouse/Family Orders (Lodging, Travel, Meals, etc.)  " ></b:Tab>
+		</b:DropdownTab>
+		
+		<b:DropdownTab text="Post-Admission">
+			<b:Tab heading="Behavioral Health and Substance Abuse " ></b:Tab>
+			<b:Tab heading="Hearing/Audiology " ></b:Tab>
+			<b:Tab heading="Life Insurance (TSGLI, VGLI, FGLI, SDVI, etc.)" ></b:Tab>
+			<b:Tab heading="Non-Medical Bills/Dept. " ></b:Tab>
+			<b:Tab heading="Physical Therapy  " ></b:Tab>
+			<b:Tab heading="Transition From Military to VA Compensation  " ></b:Tab>
+			<b:Tab heading="Vision  " ></b:Tab>
+		</b:DropdownTab>
+		
+		<b:DropdownTab text="Stable - Physically">
+			<b:Tab heading="Benefits Counseling " ></b:Tab>
+			<b:Tab heading="Career Counseling " ></b:Tab>
+			<b:Tab heading="Disability Compensation " ></b:Tab>
+			<b:Tab heading="Education " ></b:Tab>
+			<b:Tab heading="Employment " ></b:Tab>
+			<b:Tab heading="Licensure/ Certification/ Security Clearances " ></b:Tab>
+			<b:Tab heading="Vocational Rehabilitation and Employment (VBA, VHA, Compensated Work Therapy, etc.) " ></b:Tab>
+			
+				
+			<b:Tab heading="Adaptive Equipment " ></b:Tab>
+			
+			
+		</b:DropdownTab>
+			
+		<b:DropdownTab text="Stable - In Rehab">
+			<b:Tab heading="Adaptive Equipment " ></b:Tab>
+			<b:Tab heading="Driving Privileges  " ></b:Tab>
+			<b:Tab heading="Federal and State Income Tax  " ></b:Tab>
+			<b:Tab heading="Fiduciary  " ></b:Tab>
+			<b:Tab heading="Financial Counseling and Plan of Action (POA)  " ></b:Tab>
+			<b:Tab heading="Health Insurance (SSDI, CHAMPVA, Tricare etc.) " ></b:Tab>
+			<b:Tab heading="Housing Adaptation (SAH/SHA/HISA)   " ></b:Tab>
+			<b:Tab heading="Military Combat Specialty Pay and Pay and Allowance Continuation (PAC)   " ></b:Tab>
+			<b:Tab heading="Military Pay   " ></b:Tab>
+			<b:Tab heading="Prosthetics   " ></b:Tab>
+			<b:Tab heading="Recreation Therapy and Adaptive Sports/ Reconditioning   " ></b:Tab>
+			<b:Tab heading="Rehabilitation   " ></b:Tab>
+			<b:Tab heading="Therapy and Service Dogs   " ></b:Tab>
+		</b:DropdownTab>
+		
+		<b:DropdownTab text="Pre-Discharge">
+			<b:Tab heading="Auto Grant " ></b:Tab>
+			<b:Tab heading="Awards and Decorations " ></b:Tab>
+			<b:Tab heading="Caregiver " ></b:Tab>
+			<b:Tab heading="Clothing Allowance  " ></b:Tab>
+			<b:Tab heading="Community Re-integration (NGO/ VSO support etc.)  " ></b:Tab>
+			<b:Tab heading="Continue on Active Duty or Active Reserve (COAD/COAR)  " ></b:Tab>
+			<b:Tab heading="Dental Coverage  " ></b:Tab>
+			<b:Tab heading="Dependent Care  " ></b:Tab>
+			<b:Tab heading="DES-JAG (Judge Advocate General) Consultation  " ></b:Tab>
+			<b:Tab heading="Emergency and Disaster Planning  " ></b:Tab>
+			<b:Tab heading="Family Medical Leave Act  " ></b:Tab>
+			<b:Tab heading="Home Care Services  " ></b:Tab>
+			<b:Tab heading="Homemaker and Home Health Aide (HHA) Services  " ></b:Tab>
+			<b:Tab heading="Housing (Permanent)  " ></b:Tab>
+			<b:Tab heading="Housing (Temporary)  " ></b:Tab>
+			<b:Tab heading="Independent Living  " ></b:Tab>
+			<b:Tab heading="Line of Duty  " ></b:Tab>
+			<b:Tab heading="Military and Personal Belongings  " ></b:Tab>
+			<b:Tab heading="Nutrition  " ></b:Tab>
+			<b:Tab heading="Respite Care  " ></b:Tab>
+			<b:Tab heading="Self-Care  " ></b:Tab>
+			<b:Tab heading="Service Member Orders  " ></b:Tab>
+			<b:Tab heading="Social Security Benefits  " ></b:Tab>
+			<b:Tab heading="Special Compensation for Assistance with Activities of Daily Living (SCAADL)  " ></b:Tab>
+			<b:Tab heading="Special VA Programs  " ></b:Tab>
+			<b:Tab heading="Transportation  " ></b:Tab>
+		</b:DropdownTab>
+		
+		<b:DropdownTab text="Post-Discharge">
+			<b:Tab heading="Conservatorship (Property) " ></b:Tab>
+			<b:Tab heading="Disability Evaluation  " ></b:Tab>
+			<b:Tab heading="Family Court  " ></b:Tab>
+			<b:Tab heading="Guardianship/Power of Attorney (POA) " ></b:Tab>
+			<b:Tab heading="Military Court  " ></b:Tab>
+			<b:Tab heading="Non-Medical Retirement and Separation  " ></b:Tab>
+			<b:Tab heading="Promotions " ></b:Tab>
+			<b:Tab heading="Property Taxes " ></b:Tab>
+			<b:Tab heading="Reserve/Guard (Transition Assistance Advisors, etc.)  " ></b:Tab>
+			<b:Tab heading="Retreats  " ></b:Tab>
+			<b:Tab heading="Veteran's Court  " ></b:Tab>
+		</b:DropdownTab>
+		
+		<b:DropdownTab text="Recurrent">
+			<b:Tab heading="Chaplain/Religious Services " ></b:Tab>
+			<b:Tab heading="Citizenship (Service member, Veteran, Caregiver, etc.) " ></b:Tab>
+			<b:Tab heading="Client Death " ></b:Tab>
+			<b:Tab heading="Command Issues  " ></b:Tab>
+			<b:Tab heading="Counseling  " ></b:Tab>
+			<b:Tab heading="Emergency Financial Relief Resources  " ></b:Tab>
+			<b:Tab heading="Emotional Support  " ></b:Tab>
+			<b:Tab heading="Family Assistance  " ></b:Tab>
+			<b:Tab heading="Other Military Considerations  " ></b:Tab>
+			<b:Tab heading="Support Groups  " ></b:Tab>
+			<b:Tab heading="Transition to VA Care   " ></b:Tab>
+			<b:Tab heading="Unemployment Compensation   " ></b:Tab>
+			<b:Tab heading="Veteran's Compensation and Pension and VA Claims   " ></b:Tab>
+		</b:DropdownTab>
+	</b:TabPanel>
+
+</ui:UiBinder>

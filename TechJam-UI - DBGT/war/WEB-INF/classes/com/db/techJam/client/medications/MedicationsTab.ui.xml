@@ -1,0 +1,135 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:b="urn:import:com.github.gwtbootstrap.client.ui" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+<ui:style ui:field="style">
+
+.dashboardPadding {
+	padding: 18px;
+}
+
+.dashboardIcon i {
+	font-size: 30px;
+}
+
+.font-size{
+	font-size:17px;
+	}
+
+
+
+</ui:style>
+
+
+	<b:TabPanel tabPosition="ABOVE" ui:field="tabPanel" >
+		<b:Tab heading="All Medications" active="true" >
+			<b:Fieldset>
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Insulin" />
+					<g:HTMLPanel styleName="address">
+						<b:Heading size="5" text="Person St. Pharmacy " />
+						<b:Heading size="5" text="100 Person Street" />
+						<b:Heading size="5" text="Raleigh, NC - 27604" />
+						<b:Heading size="5" text="Dr. Zoidberg"/>
+					</g:HTMLPanel>
+			</g:HTMLPanel>
+			
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Expires 10/31/13" />
+				<b:Paragraph styleName="{style.dashboardIcon}">
+					<b:Icon type="PHONE"/>
+					<b:Label text="Pharmacy" styleName="{style.font-size}" />
+					<b:Label text="919-619-3061" styleName="{style.font-size}" />
+				</b:Paragraph>
+				<b:Heading size="4" text="Information About Insulin " />
+				<b:Paragraph>
+					<b:Button type="INFO" text="Mayo Clinic"/>
+					<b:Button type="INFO" text="WebMD"/>
+				</b:Paragraph>
+			</g:HTMLPanel>
+			</b:Fieldset>
+			
+			<b:Fieldset>
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Xanax" />
+					<g:HTMLPanel styleName="address">
+						<b:Heading size="5" text="Person St. Pharmacy " />
+						<b:Heading size="5" text="100 Person Street" />
+						<b:Heading size="5" text="Raleigh, NC - 27604" />
+						<b:Heading size="5" text="Dr. Quinn"/>
+					</g:HTMLPanel>
+			</g:HTMLPanel>
+			
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Expires 02/09/14" />
+				<b:Paragraph styleName="{style.dashboardIcon}">
+					<b:Icon type="PHONE"/>
+					<b:Label text="Pharmacy" styleName="{style.font-size}" />
+					<b:Label text="919-619-3061" styleName="{style.font-size}" />
+				</b:Paragraph>
+				<b:Heading size="4" text="Information About Xanax " />
+				<b:Paragraph>
+					<b:Button type="INFO" text="Mayo Clinic"/>
+					<b:Button type="INFO" text="WebMD"/>
+				</b:Paragraph>
+			</g:HTMLPanel>
+			</b:Fieldset>
+		</b:Tab>
+	
+		<b:Tab heading="Current">
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Xanax" />
+					<g:HTMLPanel styleName="address">
+						<b:Heading size="5" text="Person St. Pharmacy " />
+						<b:Heading size="5" text="100 Person Street" />
+						<b:Heading size="5" text="Raleigh, NC - 27604" />
+						<b:Heading size="5" text="Dr. Quinn"/>
+					</g:HTMLPanel>
+			</g:HTMLPanel>
+			
+			
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Expires 02/09/14" />
+				<b:Paragraph styleName="{style.dashboardIcon}">
+					<b:Icon type="PHONE"/>
+					<b:Label text="Pharmacy" styleName="{style.font-size}" />
+					<b:Label text="919-619-3061" styleName="{style.font-size}" />
+				</b:Paragraph>
+				<b:Heading size="4" text="Information About Xanax " />
+				<b:Paragraph>
+					<b:Button type="INFO" text="Mayo Clinic"/>
+					<b:Button type="INFO" text="WebMD"/>
+				</b:Paragraph>
+			</g:HTMLPanel>
+		</b:Tab>
+		
+		<b:Tab heading="Past">
+						<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Insulin" />
+					<g:HTMLPanel styleName="address">
+						<b:Heading size="5" text="Person St. Pharmacy " />
+						<b:Heading size="5" text="100 Person Street" />
+						<b:Heading size="5" text="Raleigh, NC - 27604" />
+						<b:Heading size="5" text="Dr. Zoidberg"/>
+					</g:HTMLPanel>
+			</g:HTMLPanel>
+			
+			<g:HTMLPanel styleName="span6 {style.dashboardPadding}"  >
+				<b:Heading size="3" text="Expires 10/31/13" />
+				<b:Paragraph styleName="{style.dashboardIcon}">
+					<b:Icon type="PHONE"/>
+					<b:Label text="Pharmacy" styleName="{style.font-size}" />
+					<b:Label text="919-619-3061" styleName="{style.font-size}" />
+				</b:Paragraph>
+				<b:Heading size="4" text="Information About Insulin " />
+				<b:Paragraph>
+					<b:Button type="INFO" text="Mayo Clinic"/>
+					<b:Button type="INFO" text="WebMD"/>
+				</b:Paragraph>
+			</g:HTMLPanel>
+		
+		</b:Tab>
+	
+	</b:TabPanel>
+
+</ui:UiBinder>

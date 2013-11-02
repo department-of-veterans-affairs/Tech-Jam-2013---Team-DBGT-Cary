@@ -1,0 +1,77 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:b="urn:import:com.github.gwtbootstrap.client.ui" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+
+	<g:HTMLPanel styleName="span6" >
+		<b:Form ui:field="form" styleName="well form-horizontal"  >
+
+			<b:Heading size="2" text="New Users Setup" />
+			
+			<b:Fieldset>
+				<b:Legend title="Tell us who you are and create your account"/>
+				
+				<b:Row>
+					<b:Column size="4">
+						<b:ControlGroup>
+							<b:ControlLabel for="input01">Name</b:ControlLabel>
+							<b:Controls>
+								<b:TextBox b:id="input01" ui:field="loginName" placeholder="Name" styleName="input-block-level"/>						
+							</b:Controls>
+						</b:ControlGroup>
+					</b:Column>
+				</b:Row>
+				
+				<b:Row>
+					<b:Column size="4">
+						<b:ControlGroup>
+							<b:ControlLabel for="input02">Username</b:ControlLabel>
+							<b:Controls>
+								<b:TextBox b:id="input02" ui:field="userName" placeholder="Username" styleName="input-block-level"/>
+								<b:HelpBlock>Can be your email</b:HelpBlock>
+							</b:Controls>
+						</b:ControlGroup>
+					</b:Column>
+				</b:Row>
+				
+				<b:Row>
+					<b:Column size="4">
+						<b:ControlGroup>
+							<b:ControlLabel for="input03">Password</b:ControlLabel>
+							<b:Controls>
+								<b:TextBox b:id="input03" ui:field="password" placeholder="Password" styleName="input-block-level"/>						
+							</b:Controls>
+						</b:ControlGroup>	
+					</b:Column>
+				</b:Row>
+				
+				<b:Row>
+					<b:Column size="4">
+						<b:ControlGroup>
+							<b:ControlLabel for="input04">Password Again</b:ControlLabel>
+							<b:Controls>
+								<b:TextBox b:id="input04" ui:field="passwordAgain" placeholder="Password" styleName="input-block-level"/>						
+							</b:Controls>
+						</b:ControlGroup>
+					</b:Column>
+				</b:Row>
+				
+			</b:Fieldset>
+			
+			<b:Fieldset>
+				<b:Legend title="Upload your blue button file"/>
+				<b:ControlGroup>
+					<b:ControlLabel for="input04">Upload</b:ControlLabel>
+					<b:Controls>
+						<b:FileUpload b:id="input04" ui:field="fileUpload" />						
+					</b:Controls>
+				</b:ControlGroup>
+				
+			</b:Fieldset>
+			
+					<b:Button block="true" text="Save" ui:field="signInBtn" styleName="btn btn-block btn-primary"/>
+		</b:Form>
+	</g:HTMLPanel>
+		
+</ui:UiBinder>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" 
+			 xmlns:b="urn:import:com.github.gwtbootstrap.client.ui" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+<ui:style field="style">
+
+.form-signin {
+	margin-top: 200px;
+	max-width: 300px;
+	padding: 19px 29px 9px;
+	margin: 0 auto 20px;
+	background-color: rgba(255,255,255,.9);
+	border: 1px solid #888;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px rgba(100,100,100,.45);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox, .form-signin button {
+	margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+
+.form-signin .add-on {
+	padding: 7px 9px;
+}
+	
+</ui:style>
+
+	<g:DialogBox ui:field="dialog">
+
+		<b:Form ui:field="form" styleName="{style.form-signin}" >
+			<b:Heading size="2" text="Please Sign In" styleName="{style.form-signin-heading}"/>
+			<b:TextBox ui:field="loginName" value="joe.veteran" placeholder="Username" styleName="input-block-level"/>
+			<b:PasswordTextBox ui:field="password" value="12345" placeholder="Password" styleName="input-block-level"/>
+			<b:CheckBox ui:field="rememberMe" text="Remember Me"/>
+			<b:Paragraph>
+				<b:Button text="I've never done this before" ui:field="signUpBtn"/>
+				<b:Button text="Sign In" ui:field="signInBtn" type="PRIMARY"/>	
+			</b:Paragraph>
+		</b:Form>
+	</g:DialogBox>
+</ui:UiBinder>
+
