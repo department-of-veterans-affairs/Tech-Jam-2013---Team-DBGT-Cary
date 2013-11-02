@@ -1,0 +1,159 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1749" measuredH="1318" mockupW="1622" mockupH="1158">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="127" y="160" w="-1" h="-1" measuredW="331" measuredH="43" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Patient%20Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="656" y="160" w="-1" h="-1" measuredW="330" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Doctor%20Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VRule" x="528" y="160" w="-1" h="1158" measuredW="10" measuredH="100" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="519" w="169" h="66" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Demographics%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="600" w="169" h="66" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Allergies%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="681" w="169" h="116" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Encounters%3A%20%0AMost%20recent%20with%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::StickyNote" x="128" y="813" w="169" h="97" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Immunizations%3A%0AWhat%27s%20due%2C%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="933" w="169" h="95" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Labs%3A%20%0AMost%20Recent%2C%20grouped%20by%20date</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="218" w="169" h="66" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Medications%3A%0AAll%20Current</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="953" w="169" h="99" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Problems%3A%0AMost%20recent%2C%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="1067" w="169" h="109" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Procedures%3A%20%0AMost%20recent%2C%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="299" w="169" h="66" measuredW="109" measuredH="123" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Vitals%3A%20Historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="218" w="169" h="66" measuredW="109" measuredH="123" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Demographics%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="387" w="169" h="66" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Allergies%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="468" w="169" h="117" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Encounters%3A%0AMost%20recent%20with%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="600" w="169" h="97" measuredW="109" measuredH="123" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Immunizations%3A%0ALast%205%2C%20link%20to%20full%20history</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="720" w="169" h="137" measuredW="109" measuredH="123" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Labs%3A%20%0AMost%20Recent%2C%20grouped%20by%20date%2C%20link%20to%20historical</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="299" w="169" h="66" measuredW="109" measuredH="123" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Upcoming%20appointments</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="872" w="169" h="66" measuredW="109" measuredH="123" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Medications%3A%0AAll%20Current</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="387" w="169" h="117" measuredW="109" measuredH="123" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Treatment%20Plan%3A%0AAble%20to%20link%20to%20external%20trackers</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::StickyNote" x="656" y="1200" w="169" h="66" measuredW="109" measuredH="123" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Treatment%20Plan</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::StickyNote" x="127" y="1043" w="220" h="142" measuredW="109" measuredH="123" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>QR%20Code%3A%0AGives%20sharing%20ability%20for%20doctors/caregivers%20to%20read%20data%20immediately</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Title" x="1149" y="160" w="-1" h="-1" measuredW="600" measuredH="43" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Emergency%20Personnel%20Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::VRule" x="1067" y="160" w="-1" h="1158" measuredW="10" measuredH="100" zOrder="23" locked="false" isInGroup="-1"/>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::StickyNote" x="1149" y="218" w="169" h="66" measuredW="109" measuredH="123" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Demographics%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::StickyNote" x="1149" y="306" w="169" h="66" measuredW="109" measuredH="123" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Allergies%3A%0AAll</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::StickyNote" x="1149" y="395" w="169" h="66" measuredW="109" measuredH="123" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Treatment%20Plan</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::StickyNote" x="1149" y="485" w="169" h="66" measuredW="109" measuredH="123" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Medications%3A%0AAll%20Current</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
