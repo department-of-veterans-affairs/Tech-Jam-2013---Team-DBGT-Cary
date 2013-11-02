@@ -1,0 +1,66 @@
+<web-app id="WebApp_9" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>Tech Jam Application</display-name>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:META-INF/server/wink-core-context.xml
+			classpath:/techjam-services.xml
+		</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>RestServlet</servlet-name>
+		<servlet-class>org.apache.wink.server.internal.servlet.RestServlet</servlet-class>
+		<init-param>
+			<param-name>applicationConfigLocation</param-name>
+			<param-value>
+			classpath:wink-application
+			classpath:wink-default.properties</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RestServlet</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>restSdkAdmin</servlet-name>
+		<servlet-class>org.apache.wink.server.internal.servlet.AdminServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>restSdkService</servlet-name>
+		<servlet-class>org.apache.wink.server.internal.servlet.RestServlet</servlet-class>
+		<init-param>
+			<param-name>applicationConfigLocation</param-name>
+			<param-value>
+			classpath:wink-application
+			classpath:wink-default.properties</param-value>
+		</init-param>
+	</servlet>
+
+	<filter>
+		<filter-name>Encoding Filter</filter-name>
+		<filter-class>org.db.techjam.encoder.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Encoding Filter</filter-name>
+		<servlet-name>RestServlet</servlet-name>
+	</filter-mapping>
+
+	<servlet-mapping>
+		<servlet-name>restSdkAdmin</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+</web-app>

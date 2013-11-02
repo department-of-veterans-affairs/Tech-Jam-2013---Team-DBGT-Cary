@@ -1,0 +1,29 @@
+/*
+	View - login screen
+*/
+
+.form-signin {
+	margin-top: 200px;
+	max-width: 300px;
+	padding: 19px 29px 9px;
+	margin: 0 auto 20px;
+	background-color: rgba(255,255,255,.9);
+	border: 1px solid #888;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 1px rgba(100,100,100,.45);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox, .form-signin button {
+	margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+
+.form-signin .add-on {
+	padding: 7px 9px;
+}

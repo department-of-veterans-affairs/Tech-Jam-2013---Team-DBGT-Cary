@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formation - Client Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/bootstrap2.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.general.css">
+	<link rel="stylesheet" href="css/view.patient.dashboard.css">
+	<link rel="stylesheet" href="assets/bootstrap2.3.2/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Formation</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#">My Meds</a></li>
+              <li><a href="#">Treatments</a></li>
+              <li><a href="#">Allergies</a></li>
+              <li><a href="#">Encounters</a></li>
+              <li><a href="#">Immunizations</a></li>
+              <li><a href="#">Labs</a></li>
+            </ul>
+            <button type="submit" class="btn pull-right btn-primary hidden-tablet hidden-phone">Logout</button>
+          </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+      </div><!-- /navbar-inner -->
+    </div><!-- /navbar -->
+
+    <div class="staticLeftNav hidden-tablet hidden-phone">
+      <div id="profile">
+        <img src="personas/ww2_joe_thumb.png" alt="Mary">
+        <div class="text">
+          <p>
+            <h5>Joe Wagner</h5>
+            <span>Veteran: Army</span><br>
+            <span>DOB: 03/01/1948</span>
+          </p>
+          <p>
+            <span><strong>Vital Statistics</strong> - <a href='#' id="vitaltrend">Trend</a></span><br>
+            <span>Blood Type: AB+</span><br>
+            <span>Cholesterol: 6.1</span> - <a href='#' id="ctrend">Trend</a><br>
+            <span>Blood Pressure: 120/80</span> - <a href='#' id="bptrend">Trend</a>
+          </p>
+          <a href='#'>See All Details</a>
+        </div>
+        
+      </div>
+      <div id="nav" class="hidden-tablet hidden-phone">
+          <ul class="nav nav-pills nav-stacked">
+              <li><a href="#"><i class='icon-home'></i>   Home</a></li>
+              <li><a href="#">My Meds</a></li>
+              <li><a href="#">Treatment Plans</a></li>
+              <li><a href="#">Allergies</a></li>
+              <li><a href="#">Encounters</a></li>
+              <li><a href="#">Immunizations</a></li>
+              <li><a href="#">Labs</a></li>
+          </ul>
+      </div>
+    </div>
+
+  <div class='container-fluid' id="mainWindow">
+    <div class="row-fluid">
+      <div class="offset3 span9">
+          <div class="contentBucket">
+            <div class="contentBucket-header">
+              <span>Plan Checklist</span>
+              <a href='#' class='btn btn-inverse btn-mini pull-right'>
+                <i class='icon-info-sign icon-2x'></i>
+              </a>
+            </div>
+            <div class="row-fluid">
+              <div class="span3 dashboardPadding">
+                <div class="dashboardIcon hidden-phone">
+                  <i class="icon-ok-circle"></i>
+                </div>
+              </div>
+              <div class="span8 dashboardPadding">
+                <h4>My to-do list</h4>
+                <table class='table table-hover table-condensed table-bordered'>
+                  <thead>
+                    <tr>
+                      <td><span>Task</span></td>
+                      <td><span>Status</span></td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span>Task 1</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                      <td><span>Task 2</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                      <td><span>Task 3</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                      <td><span>Task 4</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                      <td><span>Task 5</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                      <td><span>Task 6</span></td>
+                      <td><input type="checkbox"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-success btn-large pull-right hidden-phone">Mark as done</a>
+                <a href="#" class="btn btn-success btn-large btn-block hidden-desktop hidden-tablet">Mark as done</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- end span9 -->
+    </div><!-- end row-fluid -->
+    <div class="row-fluid">
+        <div id="mainView" class="offset3 span9 visible-tablet visible-desktop">
+          <div class="contentBucket">
+            <div class="contentBucket-header">
+              <span>Upcoming Appointment</span>
+              <a href='#' class='btn btn-inverse btn-mini pull-right'>
+                <i class='icon-time icon-2x'></i>
+              </a>
+            </div>
+            <div class="row-fluid">
+              <div class="span3 dashboardPadding">
+                <div class="dashboardIcon hidden-phone">
+                  <i class="icon-calendar"></i>
+                </div>
+              </div>
+              <div class="span3 dashboardPadding">
+                <h4>Lobotomy</h4>
+                <address>
+                  <strong>Dr. Zoidberg's House of Pain</strong><br>
+                  3000 Centregreen Way<br>
+                  Cary, NC 27513<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+                <a href="#" class="btn btn-info">Get Directions</a><br><br>
+                <a href="#">Contact Doctor's Office</a>
+              </div>
+              <div class="span3 dashboardPadding">
+                <h4 class="text-left">Scheduled for:</h4>
+                <h1 class='text-left'>10/31/2013</h1><br>
+                <a href='#' class='btn btn-success btn-large'>Add to Calendar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span9 visible-phone">
+          <div class="contentBucket">
+            <div class="contentBucket-header">
+              <span>Upcoming Appointment</span>
+              <a href='#' class='btn btn-inverse btn-mini pull-right'>
+                <i class='icon-time icon-2x'></i>
+              </a>
+            </div>
+            <div class="row-fluid">
+              <div class="span9 dashboardPadding">
+                <div class="dashboardIcon hidden-phone">
+                  <i class="icon-calendar"></i>
+                </div>
+              </div>
+              <div class="span9 dashboardPadding">
+                <h4 class='text-center'>Blood Glucose Test</h4>
+                <address>
+                  <strong>Dr. Zoidberg's House of Pain</strong><br>
+                  3000 Centregreen Way<br>
+                  Cary, NC 27513<br>
+                  <abbr title="Phone">P:</abbr> (123) 456-7890
+                </address>
+                <a href="#" class="btn btn-info btn-block">Get Directions</a><br><br>
+                <a href="#">Contact Doctor's Office</a>
+              </div>
+              <div class="span9 dashboardPadding">
+                <h1 class='text-center'>10/31/2013</h1><br>
+                <a href='#' class='btn btn-success btn-large btn-block'>Add to Calendar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div><!-- end row-fluid -->
+    <div class="row-fluid">
+      <div class="offset3 span9">
+          <div class="contentBucket">
+            <div class="contentBucket-header">
+              <span>Current Medications</span>
+              <a href='#' class='btn btn-inverse btn-mini pull-right'>
+                <i class='icon-info-sign icon-2x'></i>
+              </a>
+            </div>
+            <div class="row-fluid">
+              <div class="span3 dashboardPadding">
+                <div class="dashboardIcon hidden-phone">
+                  <i class="icon-medkit"></i>
+                </div>
+              </div>
+              <div class="span3 dashboardPadding">
+                <h4>Upcoming Prescription Renewal for Valium</h4>
+                <address>
+                  <strong>Pharmacy - CVS #1156</strong><br>
+                  123 Fake St<br>
+                  Cary, NC 27513<br>
+                  <abbr title="Phone">P:</abbr> (123) 999-8989
+                </address>
+                <a href="#" class="btn btn-info">Get Directions</a><br><br>
+                <a href="#">Contact Pharmacy</a>
+              </div>
+              <div class="span3 dashboardPadding">
+                <h4 class="text-left">Due:</h4>
+                <h1 class='text-left'>11/7/2013</h1><br>
+                <a href='#' class='btn btn-success btn-large'>Add to Calendar</a>
+              </div>
+            </div>
+          </div>
+        </div><!-- end span9 -->
+    </div><!-- end row-fluid -->
+  </div><!-- end mainWindow -->
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="assets/bootstrap2.3.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

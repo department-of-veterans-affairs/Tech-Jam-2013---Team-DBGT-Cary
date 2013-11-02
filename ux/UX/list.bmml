@@ -1,0 +1,43 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1534" measuredH="479" mockupW="1454" mockupH="356">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="979" y="185" w="555" h="186" measuredW="354" measuredH="100" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pre-Admission%2CPost-Admission%2CThing3%2C%20Thing4</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="80" y="123" w="663" h="356" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="80" y="123" w="657" h="43" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="88" y="134" w="-1" h="-1" measuredW="80" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>My%20Care%20Plan</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="119" y="237" w="-1" h="-1" measuredW="128" measuredH="128" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>ThumbsUpIcon%7Cxxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::DataGrid" x="292" y="227" w="430" h="149" measuredW="145" measuredH="138" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>16777215</alternateRowColor>
+        <borderStyle>none</borderStyle>
+        <hLines>false</hLines>
+        <text>Task%2C%20Status%0ADo%20this%2C%20%5B%5D%0ADo%20that%2C%20%5B%5D%0AEat%20dinner%2C%20%5B%5D%0AGrow%20a%20beard%2C%20%5B%5D</text>
+        <vLines>false</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="453" y="401" w="-1" h="-1" measuredW="269" measuredH="49" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>40</size>
+        <text>Mark%20as%20done</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="683" y="132" w="-1" h="-1" measuredW="45" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>SearchIcon%7Csmall</icon>
+        <size>16</size>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
